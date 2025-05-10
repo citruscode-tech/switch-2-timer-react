@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'New-Super-Mario-Font-U';
+  src: url('https://hhassan1230.github.io/webfonts_New-Super-Mario-Font-U/New-Super-Mario-Font-U.ttf.woff') format('woff'), url('https://hhassan1230.github.io/webfonts_New-Super-Mario-Font-U/New-Super-Mario-Font-U.ttf.svg#New-Super-Mario-Font-U') format('svg'), url('https://hhassan1230.github.io/webfonts_New-Super-Mario-Font-U/New-Super-Mario-Font-U.ttf.eot'), url('https://github.com/hhassan1230/webfonts_New-Super-Mario-Font-U/blob/master/New-Super-Mario-Font-U.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -6,11 +13,19 @@
 }
 
 .logo {
-  height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+  width: 300px;
 }
+
+h2 {
+  text-align: center;
+  font-family: 'New-Super-Mario-Font-U';
+  color: white;
+  font-size: 35px;
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -33,10 +48,12 @@
   }
 }
 
-.card {
+.countdown {
   padding: 2em;
+  text-align: center;
+  font-family: 'New-Super-Mario-Font-U';
+  color: white;
+  font-size: 35px;
 }
 
-.read-the-docs {
-  color: #888;
-}
+
